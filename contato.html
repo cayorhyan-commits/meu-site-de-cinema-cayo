@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Meu Site de Cinema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fale Comigo 🍿</h1>
+        <nav>
+            <a href="index.html">Início</a> | 
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Seu E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Deixe uma Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="button" onclick="fazerMagica()">Enviar Mensagem</button>
+        </form>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
