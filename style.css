@@ -1,0 +1,72 @@
+/* Configurações da página toda */
+body {
+    background-color: #121212; /* Preto estilo cinema */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #8B0000; /* Vermelho escuro */
+    padding: 20px;
+    border-bottom: 4px solid #FFD700; /* Dourado */
+}
+
+header a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Flexbox para colocar os filmes lado a lado */
+.vitrine {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+/* Estilo de cada cartão de filme */
+.cartao {
+    background-color: #222;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+}
+
+.cartao img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Estilo do Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+input, textarea {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #FFD700;
+}
+
+button {
+    background-color: #8B0000;
+    color: white;
+    border: 2px solid #FFD700;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
